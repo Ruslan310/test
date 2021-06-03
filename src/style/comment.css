@@ -1,0 +1,49 @@
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+.content .fix{
+    position: fixed;
+    width: 100%;
+}
+
+.contCol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contCol.textcont{
+    margin-top: 40px;
+    padding-right: 40px;
+}
+.commentsDate{
+    margin: 5px;
+    margin-top: 20px;
+    width: 170px;
+}
+.chekBox{
+    margin: 3px;
+    margin-top: 3px;
+}
+.chekBoxText{
+    margin: 3px;
+}
+.chekBoxText.a911{
+    padding-left: 40px;
+}
+.chekBoxText.optima{
+    padding-left: 12px;
+}
+.MenuChekBoxButton{
+    margin-right: 50px;
+}
+
+.inputBut{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
